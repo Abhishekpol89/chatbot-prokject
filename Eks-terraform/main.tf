@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "us-east-1"
-}
-
 # Get the custom VPC by name
 data "aws_vpc" "abhishek" {
   filter {
